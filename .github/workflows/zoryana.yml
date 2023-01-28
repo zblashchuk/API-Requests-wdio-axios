@@ -1,4 +1,4 @@
-Pname: Main Github Actions
+name: Main Github Actions
 on:
   workflow_dispatch:
   push:
