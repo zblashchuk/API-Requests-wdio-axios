@@ -12,6 +12,7 @@
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js",
+    "test:headless": "npx wdio.chrome.headless.conf.js",
     "allure:serve": "npx allure serve allure-results",
         "allure:generate": "npx allure generate allure-results --clean"
   },
