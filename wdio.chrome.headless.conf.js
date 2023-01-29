@@ -1,7 +1,7 @@
 import {config} from './wdio.conf'
 const path = require("path");
 
-const chromeHeadlessConfig = {
+export const chromeHeadlessConfig = {
 ...config,
 services: ["chromedriver"],
 capabilities: [{
