@@ -1,4 +1,4 @@
-const {config} = require("./wdio.conf");
+import {config} from './wdio.conf'
 const path = require("path");
 
 const chromeHeadlessConfig = {
