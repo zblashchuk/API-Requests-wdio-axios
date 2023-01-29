@@ -17,4 +17,4 @@ path: "/wd/hub",
 
 };
 
-exports.config = chromeHeadlessConfig;
+//exports.config = chromeHeadlessConfig;
